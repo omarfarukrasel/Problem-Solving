@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int distance;
+    scanf("%d", &distance);
+
+    // Car Y takes 2 minutes per km to get ahead
+    int time = distance * 2;
+
+    printf("%d minutos\n", time);
+
+    return 0;
+}
